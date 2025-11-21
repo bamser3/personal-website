@@ -12,12 +12,6 @@ This repository contains the source code for my personal website. It serves as a
 
 ---
 
-## Tech Stack
-- HTML and CSS for structure and styling
-- Flexbox and CSS Grid for responsive layouts
-  
----
-
 ## Setup and Usage
 1. Clone the repository:
    ```bash
