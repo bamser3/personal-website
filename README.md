@@ -16,10 +16,10 @@ This repository contains the source code for my personal website. It serves as a
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/personal-website.git
-    ```
+   ```
 2. cd into the directory:
   ```bash
-  cd personal-website
-  ```
+   cd personal-website
+  ``` 
 
 4. open the index.html file in your browser to view the site.
