@@ -1,0 +1,263 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#info-header {
+    font-family: kiwiSoda;
+    padding: 2em;
+}
+
+nav {
+    font-size: 25px;
+    padding: 10px;
+    justify-items: center;
+    align-items: flex-start;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 20px;
+    font-family: kindergarten;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:inherit;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#about-me {
+    margin: 1em;
+    padding: 0em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about-big{
+    font-size:40px;
+    font-family: kindergarten;
+    font-weight: bold;
+    text-shadow: 8px solid #ddd;
+}
+
+#about-image {
+    max-width: 600px;
+    height: auto;
+    border-radius: 12px;
+    margin-left: 2em;
+}
+
+
+
+#about-me .about-content {
+    max-width: 600px;
+    white-space: pre-line;
+    margin: 1em;
+    padding: 1em;
+    font-family: Helvetica;
+}
+
+#skill-big {
+    font-size:40px;
+    font-family: kindergarten;
+    font-weight: bold;
+    text-shadow: 8px solid #ddd;
+    text-align: center;
+}
+
+#about-general {
+    font-size: 17px;
+}
+
+
+.skill-content {
+    align-self: self-end;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+/*
+#skill-content {
+  margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 800px;
+    align-items: center;
+    justify-content: space-around;
+}
+*/
+
+#skill-big {
+  font-size: 40px;
+  font-family: kindergarten;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+ul.skills {
+  max-width: 600px;
+  font-family: Helvetica;
+  margin: 0 auto;
+}
+
+ul.skills li {
+    margin: 1em;
+    font-size: 16px;
+}
+
+#skill-image {
+    width: 400px;
+}
+
+#skill-header {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 5px;
+}
+
+#about-me p{
+    margin: 0;
+    white-space: pre-line;
+    font-size: 36px;
+}
+
+#name-style {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 5px;
+}
+
+#project-container a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.project-item {
+    flex: 1 1 300px;
+    gap: 0px;
+    padding: 2em;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+    transform: scale(1.03);
+}
+
+.project-item a:hover {
+    cursor: pointer;
+}
+
+
+
+.project-item p {
+    font-family: Helvetica;
+    text-align: center;
+    font-size: 0.95em;
+    color: #555;
+}
+
+.project-item h3{
+    font-family: Kindergarten;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.project-item img{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+
+
+#calculator-heading {
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 5px;
+}
+
+#cat-heading {
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 5px;
+}
+
+.project-item img {
+  transition: transform 0.3s ease;
+}
+.project-item img:hover {
+  transform: scale(1.05);
+}
+
+a:hover {
+    cursor:crosshair;
+}
+
+
+@font-face {
+    font-family: Milker;
+    src: url(fonts/Milker.otf) format('opentype');
+}
+@font-face {
+    font-family: kiwiSoda;
+    src: url(fonts/KiwiSoda.ttf) format('truetype');
+}
+@font-face {
+    font-family: kindergarten;
+    src: url(/fonts/kindergarten.ttf) format('truetype');
+}
+@font-face {
+    font-family: helveticaPunk;
+    src: url(fonts/Helvetica\ Punk.ttf) format('truetype');
+}
+@font-face {
+    font-family: earwig;
+    src: url(/fonts/earwig\ factory\ rg.otf) format('opentype');
+}
+
+@media (max-width: 768px) {
+  #about-me {
+    flex-direction: column; 
+    align-items: center;
+  }
+}
