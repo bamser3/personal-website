@@ -18,8 +18,8 @@ This repository contains the source code for my personal website. It serves as a
    git clone https://github.com/yourusername/personal-website.git
    ```
 2. cd into the directory:
-  ```bash
+   ```bash
    cd personal-website
-  ``` 
+   ``` 
 
 4. open the index.html file in your browser to view the site.
