@@ -244,7 +244,7 @@ a:hover {
 }
 @font-face {
     font-family: kindergarten;
-    src: url(/fonts/kindergarten.ttf) format('truetype');
+    src: url(fonts/kindergarten.ttf) format('truetype');
 }
 @font-face {
     font-family: helveticaPunk;
@@ -252,7 +252,7 @@ a:hover {
 }
 @font-face {
     font-family: earwig;
-    src: url(/fonts/earwig\ factory\ rg.otf) format('opentype');
+    src: url(fonts/earwig\ factory\ rg.otf) format('opentype');
 }
 
 @media (max-width: 768px) {
