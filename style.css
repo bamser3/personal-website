@@ -61,7 +61,7 @@ nav ul li a:hover {
     max-width: 600px;
     height: auto;
     border-radius: 12px;
-    margin-left: 2em;
+    margin-right: 2em;
 }
 
 
@@ -90,7 +90,7 @@ nav ul li a:hover {
 .skill-content {
     align-self: self-end;
     margin: 1em;
-    padding: 1em;
+    padding: 8em;
     border: 1px solid #ddd;
     border-radius: 8px;
     display: flex;
@@ -120,19 +120,54 @@ nav ul li a:hover {
   margin-bottom: 1em;
 }
 
-ul.skills {
-  max-width: 600px;
-  font-family: Helvetica;
-  margin: 0 auto;
-}
-
-ul.skills li {
-    margin: 1em;
-    font-size: 16px;
-}
 
 #skill-image {
-    width: 400px;
+    width: 300px;
+    margin-top: 10em;
+}
+
+#skill-container {
+    display: flex;
+    flex: 1 1 300px;
+}
+
+#skill-item {
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#skill-item p {
+    max-width: 300px;
+    margin-left: 1em;
+}
+
+#skill-item h3 {
+    font-family: kindergarten;
+}
+
+#skill-item:nth-of-type(1) h3 {
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+    text-decoration-thickness: 5px;
+}
+
+#skill-item:nth-of-type(2) h3 {
+    text-decoration: underline;
+    text-decoration-color: rgb(250, 73, 23);
+    text-decoration-thickness: 5px;
+}
+#skill-item:nth-of-type(3) h3 {
+    text-decoration: underline;
+    text-decoration-color: #FFDB58;
+    text-decoration-thickness: 5px;
+}
+
+#skill-item img {
+    max-width: 100px;
 }
 
 #skill-header {
@@ -173,6 +208,7 @@ ul.skills li {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
+    min-width: 800px;
 }
 
 .project-item:hover {
@@ -190,6 +226,8 @@ ul.skills li {
     text-align: center;
     font-size: 0.95em;
     color: #555;
+    max-width: 500px;
+    margin-left:10em;
 }
 
 .project-item h3{
